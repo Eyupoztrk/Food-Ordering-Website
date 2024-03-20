@@ -1,0 +1,49 @@
+.edit-form {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #e23333;
+    color: rgb(255, 255, 255);
+    padding: 15x 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background-color: #b71d1d;
+  }
+  
+  button:last-child {
+    background-color: #09ad1f;
+  }
+  
+  button:last-child:hover {
+    background-color: #219b05;
+  }
+  

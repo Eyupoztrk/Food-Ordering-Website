@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left-panel {
+  width: 40%;
+  border: 4px solid #7c7b7b;
+}
+
+.input-container {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 50px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.right-panel {
+  border: 5px solid #ccc;
+  padding: 10px;
+}
+
+.contact {
+  border: 1px solid #2d2828;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-container {
+  margin-top: 20px;
+}
+
+.edit-container input,
+.edit-container button {
+  margin-right: 5px;
+}
+
+.edit-container button {
+  background-color: #4caf50;
+  color: rgb(182, 55, 55);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-container button.cancel {
+  background-color: #ccc;
+}

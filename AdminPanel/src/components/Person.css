@@ -1,0 +1,63 @@
+.person-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+  }
+  
+  .person-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  .button-container button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .button-container button.cancel {
+    background-color: #ccc;
+    margin-left: 5px;
+  }
+  
+  .add-person-container {
+    background-color: #e4e2e2;
+    padding: 15px;
+    margin-right: 00px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .add-person-container input {
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .add-person-container button {
+    padding: 10px 100px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .add-person-container button.cancel {
+    background-color: #ccc;
+    margin-left: 5px;
+  }
+  
